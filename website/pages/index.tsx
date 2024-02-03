@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import "firebase/compat/auth";
 import React from "react";
 
 const ConnexComponent = dynamic(() => import('../components/DepositComponent'), {

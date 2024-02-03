@@ -1,4 +1,4 @@
-import { TwitterApi, UserV2FollowResult } from 'twitter-api-v2';
+import { TwitterApi, TwitterApiTokens, UserV2FollowResult } from 'twitter-api-v2';
 
 import { Transaction, secp256k1, abi, mnemonic, address } from 'thor-devkit';
 import axios from 'axios';
@@ -28,9 +28,10 @@ export default async function rewardFunction(
     const accessToken = req.body.accessToken;
     const accessSecret = req.body.accessSecret;
 
-    const client = new TwitterApi({
-        appKey: consumerKey,
-        appSecret: consumerSecret,
+
+    const client: TwitterApi = new TwitterApi({
+        appKey: consumerKey as string,
+        appSecret: consumerSecret as string,
         accessToken: accessToken,
         accessSecret: accessSecret,
     });

@@ -14,7 +14,6 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.3",
-    "@types/firebase": "^3.2.1",
     "@vechain/connex": "^2.1.0",
     "@vechain/connex-driver": "^2.1.0",
     "@vechain/dapp-kit": "^0.0.4",
@@ -23,13 +22,11 @@
     "@vechain/web3-providers-connex": "^1.1.2",
     "axios": "^1.6.3",
     "ethers": "^6",
-    "firebase": "^10.7.1",
     "next": "^13",
     "next-auth": "^4.24.5",
     "nextjs-progressbar": "^0.0.16",
-    "react": "^18.2",
-    "react-dom": "^18.2",
-    "react-firebaseui": "^6.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-hook-form": "^7.43.0",
     "react-hot-toast": "^2.4.0",
     "thor-devkit": "^2.0.9",
@@ -37,10 +34,10 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
-    "@types/react": "^18",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
-    "hardhat": "^2.19.2",
-    "typescript": "^4.9.4"
+    "typescript": "^5.1.3"
   }
 }
