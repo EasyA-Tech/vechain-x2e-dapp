@@ -2,7 +2,12 @@
 
 Welcome! Build on this, hack on this and improve on it!
 
-We use yarn.
+<img width="1237" alt="image" src="https://github.com/platonicsocrates/x2e-dapp/assets/47001602/178c7dc1-fa01-4c5c-9df5-f0cadfe1a33b">
+<img width="1235" alt="image" src="https://github.com/platonicsocrates/x2e-dapp/assets/47001602/9f966eba-a6bf-4871-b35b-7853fb9f2813">
+
+
+
+We use yarn or npm.
 
 ## Run Locally
 
